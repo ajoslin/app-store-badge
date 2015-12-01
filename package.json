@@ -2,7 +2,7 @@
   "name": "app-store-badge",
   "main": "index.js",
   "version": "1.0.0",
-  "description": "Create a virtual DOM SVG badge linking to the given app in the Android or iOS store",
+  "description": "Create a virtual DOM SVG badge for the Google Play Store or App Store",
   "license": "MIT",
   "repository": "ajoslin/app-store-badge",
   "author": {
