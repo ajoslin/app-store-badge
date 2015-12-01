@@ -10,6 +10,7 @@ module.exports = function appStoreIcon (style) {
     height: '40px'
   }, style || {})
 
+  // On Android 4.2-, you have to explicitly set both width and height for the svg to show up
   style.width = style.width || parseFloat(style.height) * widthRatio
 
   var options = {
