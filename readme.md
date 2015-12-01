@@ -18,7 +18,7 @@ var badge = require('app-store-badge')
 badge.ios({ height: '100px' }) //default 40px height
 // => returns virtual DOM svg element
 
-badge.android({ height: '200px' }) / default 58px height
+badge.android({ height: '200px' }) // default 58px height
 // => returns virtual DOM svg element
 ```
 
