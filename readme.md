@@ -13,32 +13,18 @@ $ npm install --save app-store-badge
 ## Usage
 
 ```js
-var appStoreBadge = require('app-store-badge')
+var badge = require('app-store-badge')
 
-appStoreBadge('input')
-//=> output
+badge.ios({ height: '100px' }) //default 45px height
+// => returns virtual DOM svg element
+
+badge.android({ height: '200px' }) / default 58px height
+// => returns virtual DOM svg element
 ```
 
-## API
+## Related
 
-#### `appStoreBadge(input, [options])` -> `output`
-
-##### input
-
-*Required*  
-Type: `string`
-
-Lorem ipsum.
-
-##### options
-
-###### foo
-
-Type: `boolean`  
-Default: `false`
-
-Lorem ipsum.
-
+- [app-store-link](https://github.com/ajoslin/app-store-badge)
 
 ## License
 
