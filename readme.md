@@ -24,7 +24,7 @@ badge.android({ height: '200px' }) / default 58px height
 
 ## Related
 
-- [app-store-link](https://github.com/ajoslin/app-store-badge)
+- [app-store-link](https://github.com/ajoslin/app-store-link)
 
 ## License
 
