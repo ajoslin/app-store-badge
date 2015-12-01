@@ -3,10 +3,14 @@
 var svg = require('virtual-dom/virtual-hyperscript/svg')
 var extend = require('xtend')
 
+var widthRatio = 3.3703
+
 module.exports = function appStoreIcon (style) {
   style = extend({
     height: '40px'
   }, style || {})
+
+  style.width = style.width || parseFloat(style.height) * widthRatio
 
   var options = {
     viewBox: [0, 0, 135, 40].join(' '),
