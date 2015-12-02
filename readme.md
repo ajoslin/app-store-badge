@@ -1,6 +1,6 @@
 # app-store-badge [![Build Status](https://travis-ci.org/ajoslin/app-store-badge.svg?branch=master)](https://travis-ci.org/ajoslin/app-store-badge)
 
-> Create a virtual DOM SVG badge for the Google Play Store or App Store
+> Create a Google Play Store or App Store virtual DOM svg badge
 
 
 ## Install
