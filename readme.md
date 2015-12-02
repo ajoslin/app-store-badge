@@ -26,7 +26,7 @@ badge.android({ height: '200px' }) // default 58px height
 
 - [app-store-link](https://github.com/ajoslin/app-store-link)
 
-### Don't use Virtual DOM? No problem.
+### Don't use Virtual DOM?
 
 ```js
 var createElement = require('virtual-dom/create-element')
