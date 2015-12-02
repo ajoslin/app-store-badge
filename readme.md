@@ -28,7 +28,7 @@ badge.android({ height: '200px' }) // default 58px height
 
 ## FAQ
 
-#### Q: I Don't use Virtual DOM, how do I use this?
+#### Q: I don't use Virtual DOM, how can I get a real element out of this?
 #### A:
 
 ```js
