@@ -15,12 +15,17 @@ $ npm install --save app-store-badge
 ```js
 var badge = require('app-store-badge')
 
-badge.ios({ height: '100px' }) //default 40px height
-// => returns virtual DOM svg element
 
-badge.android({ height: '200px' }) // default 58px height
-// => returns virtual DOM svg element
+badge.ios() // => returns virtual DOM svg element, default 40px height
+
+badge.android() // => returns virtual DOM svg element, default 58px height
+
+// height can be overridden
+badge.ios({height: '100px'}) 
+badge.android({height: '33px'})
 ```
+
+## API
 
 ## Related
 
