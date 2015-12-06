@@ -25,25 +25,9 @@ badge.ios({height: '100px'})
 badge.android({height: '33px'})
 ```
 
-## API
-
 ## Related
 
 - [app-store-link](https://github.com/ajoslin/app-store-link)
-
-## FAQ
-
-#### Q: I don't use Virtual DOM, how can I get a real element out of this?
-#### A:
-
-```js
-var createElement = require('virtual-dom/create-element')
-var badge = require('app-store-badge')
-
-var svgElement = createElement(badge.ios())
-
-document.body.appendChild(svgElement)
-```
 
 ### License
 
